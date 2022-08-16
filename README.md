@@ -6,8 +6,16 @@ Data science apps built in Python
 #### Packages
 - streamlit
 - yfinance
-- pandas
 
 #### Run
-
 ``python -m streamlit run stock_price.py`` or ``streamlit run stock_price.py``
+
+## Bioinformatics DNA
+
+#### Packages
+- pandas
+- streamlit
+- altair
+
+#### Run
+``python -m streamlit run bio_dna.py`` or ``streamlit run bio_dna.py``
