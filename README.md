@@ -19,3 +19,15 @@ Data science apps built in Python
 
 #### Run
 ``python -m streamlit run bio_dna.py`` or ``streamlit run bio_dna.py``
+
+## Exploratory Data Analysis: Basketball
+
+#### Packages
+- pandas
+- streamlit
+- lxml
+- matplotlib
+- seaborn
+
+#### Run
+``python -m streamlit run eda_basketball.py`` or ``streamlit run eda_basketball.py``

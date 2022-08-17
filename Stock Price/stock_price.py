@@ -6,17 +6,16 @@ st.write(
     """
 # Stock Price App
 
-#### Google stock closing price and volume of shares
+#### Stock closing price and volume of shares
 
 """
 )
 
-# Get stock data of Google
-tickerSymbol = "GOOGL"
-tickerData = yf.Ticker(tickerSymbol)
+# Get stock data
+tickerData = yf.Ticker("MSFT")
 
-# Data point for each day since inception
-tickerDf = tickerData.history(period="1d", start="2004-1-1", end="2022-8-15")
+# Data point for each day for 10 years
+tickerDf = tickerData.history(period="1d", start="2012-1-1", end="2022-8-15")
 
 # Plot the closing price and volume of shares
 st.write(
