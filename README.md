@@ -31,3 +31,13 @@ Data science apps built in Python
 
 #### Run
 ``python -m streamlit run eda_basketball.py`` or ``streamlit run eda_basketball.py``
+
+## Exploratory Data Analysis: Stock Index
+
+#### Packages
+- streamlit
+- yfinance
+- matplotlib
+
+#### Run
+``python -m streamlit run eda_stock_index.py`` or ``streamlit run eda_stock_index.py``
