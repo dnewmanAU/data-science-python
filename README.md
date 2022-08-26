@@ -41,3 +41,12 @@ Data science apps built in Python
 
 #### Run
 ``python -m streamlit run eda_stock_index.py`` or ``streamlit run eda_stock_index.py``
+
+## Classification: Iris
+
+#### Packages
+- streamlit
+- sklearn
+
+#### Run
+``python -m streamlit run ml_iris.py`` or ``streamlit run ml_iris.py``
