@@ -50,3 +50,12 @@ Data science apps built in Python
 
 #### Run
 ``python -m streamlit run ml_iris.py`` or ``streamlit run ml_iris.py``
+
+## Classification: Penguins
+
+#### Packages
+- streamlit
+- sklearn
+
+#### Run
+``python -m streamlit run ml_penguins.py`` or ``streamlit run ml_penguins.py``
