@@ -55,7 +55,8 @@ Data science apps built in Python
 
 #### Packages
 - streamlit
-- sklearn
+- pickle
 
 #### Run
+``python model_building.py`` then
 ``python -m streamlit run ml_penguins.py`` or ``streamlit run ml_penguins.py``
