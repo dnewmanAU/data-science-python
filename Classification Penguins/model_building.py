@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 import pickle
 
-penguins = pd.read_excel("penguins_cleaned.xlsx")
+penguins = pd.read_csv("penguins_cleaned.csv")
 
 df = penguins.copy()
 target = "species"  # predict the species of penguin

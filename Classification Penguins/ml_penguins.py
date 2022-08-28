@@ -22,11 +22,11 @@ def user_input_params():
     body_mass_g = st.sidebar.slider("Body mass (g)", 2700.0, 6300.0, 4207.0)
     input_data = {
         "island": island,
-        "sex": sex,
-        "bill_depth_mm": bill_depth_mm,
         "bill_length_mm": bill_length_mm,
+        "bill_depth_mm": bill_depth_mm,
         "flipper_length_mm": flipper_length_mm,
         "body_mass_g": body_mass_g,
+        "sex": sex,
     }
     penguin_params = pd.DataFrame(input_data, index=[0])
     return penguin_params
@@ -64,7 +64,7 @@ else:
     input_df = user_input_params()
 
 # Read in cleaned penguin dataset
-penguins_raw_data = pd.read_excel("penguins_cleaned.xlsx")
+penguins_raw_data = pd.read_csv("penguins_cleaned.csv")
 penguins_df = penguins_raw_data.drop(columns=["species"])
 # Combine user input parameters with the entire penguins dataset
 df = pd.concat([input_df, penguins_df], axis=0)
