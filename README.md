@@ -60,3 +60,16 @@ Data science apps built in Python
 #### Run
 ``python model_building.py`` then
 ``python -m streamlit run ml_penguins.py`` or ``streamlit run ml_penguins.py``
+
+## Regression: Boston Housing
+
+#### Packages
+- streamlit
+- pandas
+- shap
+- matplotlib
+- sklearn
+
+#### Run
+``python -m streamlit run ml_boston.py`` or ``streamlit run ml_boston.py``
+
