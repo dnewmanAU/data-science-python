@@ -71,5 +71,16 @@ Data science apps built in Python
 - sklearn
 
 #### Run
-``python -m streamlit run ml_boston.py`` or ``streamlit run ml_boston.py``
+``python -m streamlit run ml_boston.py`` or ``streamlit run ml_boston.py``## Regression: Boston Housing
 
+#### Packages
+- streamlit
+- pandas
+- numpy
+- matplotlib
+- rdkit
+- sklearn
+
+#### Run
+``python model_building.py`` then
+``python -m streamlit run solubility.py`` or ``streamlit run solubility.py``
